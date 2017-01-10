@@ -15,12 +15,19 @@
 				position: relative;
 				overflow: hidden;
 			}
+			#myAd .myAd_Img {
+				  position: absolute;
+					background: url(graphics.png) no-repeat 0px 0px;
+			}
+			#myAd #myAd_clouds { width: inherit; height: inherit; top: 0px; left: 0px; }
 		</style>
 	</head>
 	<body>
 
 		<a id="myAdLink" href="http://lynda.com">
-			<div id="myAd"></div>
+			<div id="myAd">
+				<div class="myAd_Img" id="myAd_clouds"></div>
+			</div>
 		</a>
 
 	</body>
